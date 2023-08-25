@@ -57,7 +57,7 @@ export default {
         {
           id: 4,
           title: "Houzing",
-          image: "../../assets/img/housing.PNG",
+          image: "/assets/img/housing.PNG",
           stacks: [
             "React",
             "Context API",
@@ -71,7 +71,7 @@ export default {
         {
           id: 5,
           title: "Article",
-          image: "./src/assets/img/article.PNG",
+          image: "/assets/article.PNG",
           stacks: ["Vue", "Vuex", "Bootstrap", "Backend"],
           link: "https://article-vue.vercel.app/",
           tab: "vue",
