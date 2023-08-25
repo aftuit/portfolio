@@ -57,7 +57,7 @@ export default {
         {
           id: 4,
           title: "Houzing",
-          image: "./src/assets/img/housing.PNG",
+          image: "../../assets/img/housing.PNG",
           stacks: [
             "React",
             "Context API",
