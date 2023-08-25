@@ -1,0 +1,92 @@
+.resume-content {
+}
+.resume-row{
+    padding: 93px 60px !important;
+}
+@media(max-width: 500px) {
+   .resume-row{
+    padding: 20px!important;
+}
+   }
+.section-title{
+    margin: 40px 0;
+}
+.section-title h3 {
+    font-size: 20px;
+    font-weight: 700;
+}
+.resume-list{
+    width: 100%;
+    height: auto;
+    clear: both;
+    float: left;
+}
+.resume-list ul {
+    margin: 0;
+    list-style-type: none;
+    position: relative;
+    display: inline-block;
+    padding-top: 10px;
+    list-style-type: none;
+}
+.resume-list ul::before {
+    content: "";
+    background-color: rgba(255,255,255,.07);
+    position: absolute;
+    width: 1px;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+.resume-list ul li {
+    margin: 0;
+    width: 100%;
+    float: left;
+    position: relative;
+    padding-left: 20px;
+    padding-bottom: 45px;
+}
+.resume-list ul li {
+    margin: 0;
+    width: 100%;
+    float: left;
+    position: relative;
+    padding-left: 20px;
+    padding-bottom: 45px;
+}
+.resume-list ul li::before {
+    content: "";
+    position: absolute;
+    height: 18px;
+    width: 18px;
+    background: #fff;
+    border-radius: 100%;
+    border: solid 1px #ccc;
+    left: -40px;
+    top: 8px;
+    background-color: #494b50;
+    border-color: rgba(255,255,255,.2);
+}
+.resume-list ul li .list_inner{
+    width: 100%;
+    height: auto;
+    clear: both;
+    display: flex;
+    position: relative;
+}
+.resume-list ul li .time{
+    width: 50%;
+    padding-right: 20px;
+}
+.resume-list ul li .place{
+    width: 50%;
+    padding-left: 20px;
+}
+.resume-list ul li .place h3{
+    font-size: 16px;
+    margin-bottom: 2px;
+    font-weight: 600;
+}
+.resume-list ul li .place span{
+    font-size: 14px;
+}

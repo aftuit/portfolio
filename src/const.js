@@ -1,0 +1,2 @@
+export const logo = "https://rainbowit.net/themes/inbio/wp-content/themes/inbio/assets/images/logo/logo-dark.png"
+export const man = "https://rainbowit.net/themes/inbio/wp-content/uploads/2021/08/banner-01.png"

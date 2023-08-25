@@ -1,0 +1,24 @@
+.portfolio {
+    width: 100%;
+    height: auto;
+    clear: both;
+    float: left;
+    padding: 60px 40px 0;
+}
+
+.portfolio .tab-btn{
+    transition: .4s;
+    cursor: pointer;
+}
+.portfolio .tab-btn.active,
+.portfolio .tab-btn:hover
+{
+    background-color: #494B50;
+}
+
+@media (max-width: 450px) {
+    .filter-content{
+        flex-direction: column!important;
+        text-align: center;
+    }
+}

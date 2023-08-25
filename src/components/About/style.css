@@ -1,0 +1,29 @@
+.about-content {
+    width: 100%;
+    height: auto;
+    clear: both;
+    float: left;
+    padding: 60px 40px 0;
+}
+@media (max-width: 400px) {
+    .about-content{
+        padding: 45px 20px 0;
+    }
+}
+.bio h2{
+    font-size: 22px;
+    font-weight: 700;
+}
+.section{
+    border-bottom: 1px solid #dfdfdf;
+    padding-bottom: 25px;
+    padding-top: 20px;
+    margin-bottom: 33px;
+    border-bottom-color: rgba(255,255,255,.1);
+}
+.section p, .section span {
+    font-weight: 300;
+}
+ul li {
+    list-style-type: none;
+}

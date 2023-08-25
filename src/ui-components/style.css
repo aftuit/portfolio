@@ -1,0 +1,29 @@
+.title {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    clear: both;
+    float: left;
+    margin-bottom: 62px;
+}
+.title span{
+    background-color: rgba(255,255,255,.04);
+    display: inline-block;
+    width: fit-content;
+    /* background-color: rgba(0,0,0,.04); */
+    text-transform: uppercase;
+    padding: 10px 16px;
+    font-weight: 700;
+    font-size: 12px;
+    /* color: #333; */
+    font-family: montserrat;
+    letter-spacing: 0;
+    margin-bottom: 15px;
+    border-radius: 0;
+}
+.title h2{
+    font-weight: 800;
+    font-family: montserrat;
+    font-size: 30px;
+}
