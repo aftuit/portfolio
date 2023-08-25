@@ -129,7 +129,7 @@ export default {
           title: "Portfolio Site",
           image: "./src/assets/img/portfolio.png",
           stacks: ["Vue", "Bootstrap"],
-          link: "https://work-wise.netlify.app/",
+          link: "https://aktamovs-dev.vercel.app/",
           tab: "vue",
         },
         {
