@@ -1,18 +1,20 @@
 <template>
   <div class="container">
     <div class="about-content">
-      <div class="box d-flex justify-content-between align-items-center">
         <Title :badge="'ABOUT'" :text="'About Me'" />
-      <a href="/assets/CV.pdf" class="d-block text-decoration-none text-light my-resume">My Resume</a>
-      </div>
+     
       <div class="detail-content">
         <img src="../../assets/img/about.png" alt="" class="w-100 h-100" />
 
-        <div class="bio my-3 section">
-          <h2 class="fw-bold">Aktamov Farrukh</h2>
-          <p class="text-white-50 mb-0">Frontend Developer</p>
+        <div class="bio my-3 section ">
+          <div class="d-flex justify-content-between flex-box-content">
+          <div>
+            <h2 class="fw-bold">Aktamov Farrukh</h2>
+            <p class="text-white-50 mb-0">Frontend Developer</p>
+          </div>
+          <a href="/assets/CV.pdf" class="d-block text-decoration-none text-light my-resume">Resume <i class="fa-solid fa-download" style="color: #ffffff;"></i></a>
         </div>
-
+      </div>
         <div class="short-description section">
           <p class="text-white-50 mb-0 text-wrap">
             Proficient in frontend development with both React and Vue is a
