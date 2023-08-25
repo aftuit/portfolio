@@ -123,15 +123,15 @@ export default {
         {
           id: 13,
           title: "Work Wise",
-          image: "/assets/img/workwise.png",
+          image: "/assets/img/work-wise.PNG",
           stacks: ["Html", "Css", "Bootstrap"],
-          link: "https://work-wise.netlify.app/",
+          link: "https://workwise.netlify.app/",
           tab: "html",
         },
         {
           id: 13,
           title: "Portfolio Site",
-          image: "/assets/img/portfolio.png",
+          image: "/assets/img/portfolio.PNG",
           stacks: ["Vue", "Bootstrap"],
           link: "https://aktamovs-dev.vercel.app/",
           tab: "vue",
@@ -156,7 +156,7 @@ export default {
           id: 9,
           title: "Dom-D",
 
-          image: "/assets/img/dom-d.png",
+          image: "/assets/img/dom-d.PNG",
           stacks: ["Html", "Css", "Javascript", "Responsive"],
           link: "https://dom-d-responsive-project-aktamov.netlify.app/",
           tab: "react",
