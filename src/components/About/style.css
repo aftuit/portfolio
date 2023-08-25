@@ -5,6 +5,14 @@
     float: left;
     padding: 60px 40px 0;
 }
+.my-resume{
+    width: 200px;
+    border: 1px solid rgba(255,255,255,0.1);
+    padding: 10px;
+    text-align: center;
+    border-radius: 8px;
+    background-color: rgba(255,255,255,0.06);
+}
 @media (max-width: 400px) {
     .about-content{
         padding: 45px 20px 0;

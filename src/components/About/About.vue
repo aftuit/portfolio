@@ -1,8 +1,10 @@
 <template>
   <div class="container">
     <div class="about-content">
-      <Title :badge="'ABOUT'" :text="'About Me'" />
-
+      <div class="box d-flex justify-content-between align-items-center">
+        <Title :badge="'ABOUT'" :text="'About Me'" />
+      <a href="/assets/CV.pdf" class="d-block text-decoration-none text-light my-resume">My Resume</a>
+      </div>
       <div class="detail-content">
         <img src="../../assets/img/about.png" alt="" class="w-100 h-100" />
 
