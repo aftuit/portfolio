@@ -123,7 +123,7 @@ export default {
         {
           id: 13,
           title: "Work Wise",
-          image: "/assets/img/work-wise.PNG",
+          image: "/assets/img/workwise.PNG",
           stacks: ["Html", "Css", "Bootstrap"],
           link: "https://workwise.netlify.app/",
           tab: "html",
