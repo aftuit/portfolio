@@ -12,7 +12,7 @@
             <h2 class="fw-bold">Aktamov Farrukh</h2>
             <p class="text-white-50 mb-0">Frontend Developer</p>
           </div>
-          <a href="/assets/CV.pdf" class="d-block text-decoration-none text-light my-resume">Resume <i class="fa-solid fa-download" style="color: #ffffff;"></i></a>
+          <a href="/assets/resume.pdf" class="d-block text-decoration-none text-light my-resume">Resume <i class="fa-solid fa-download" style="color: #ffffff;"></i></a>
         </div>
       </div>
         <div class="short-description section">
