@@ -76,8 +76,24 @@ export default {
           id: 5,
           title: "Article",
           image: "/assets/img/article.PNG",
-          stacks: ["Vue", "Vuex", "Bootstrap", "Backend"],
+          stacks: ["Vue", "Vuex", "Bootstrap", "Backend", "CRUD"],
           link: "https://article-vue.vercel.app/",
+          tab: "vue",
+        },
+        {
+          id: 19,
+          title: "TreeView",
+          image: "/assets/img/treeview.png",
+          stacks: ["Vue", "Tailwind CSS", "Pinia", "CRUD"],
+          link: "https://vue-treeview-henna.vercel.app/",
+          tab: "vue",
+        },
+        {
+          id: 20,
+          title: "Movie List",
+          image: "/assets/img/movie.PNG",
+          stacks: ["Vue", "Vuex", "CRUD"],
+          link: "https://movie-list-psi-six.vercel.app/",
           tab: "vue",
         },
         {
@@ -129,7 +145,7 @@ export default {
           tab: "html",
         },
         {
-          id: 13,
+          id: 16,
           title: "Portfolio Site",
           image: "/assets/img/portfolio.PNG",
           stacks: ["Vue", "Bootstrap"],
@@ -153,11 +169,11 @@ export default {
           tab: "html",
         },
         {
-          id: 9,
+          id: 18,
           title: "Dom-D",
 
           image: "/assets/img/dom-d.PNG",
-          stacks: ["Html", "Css", "Javascript", "Responsive"],
+          stacks: ["React", "Responsive"],
           link: "https://dom-d-responsive-project-aktamov.netlify.app/",
           tab: "react",
         },
