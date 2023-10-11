@@ -81,6 +81,14 @@ export default {
           tab: "vue",
         },
         {
+          id: 21,
+          title: "To-Do List",
+          image: "/assets/img/todo.PNG",
+          stacks: ["Vue", "Tailwind CSS", "Pinia", "CRUD"],
+          link: "https://todolist-vue-aktamov.netlify.app/",
+          tab: "vue",
+        },
+        {
           id: 19,
           title: "TreeView",
           image: "/assets/img/treeview.png",
