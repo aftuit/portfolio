@@ -15,11 +15,7 @@
     </div>
     <div class="container mt-4">
       <div class="row mb-3">
-        <div
-          class="col-xl-4 col-md-6 col-12 mt-3"
-          v-for="site in filterSites()"
-          :key="site.link"
-        >
+        <div class="col-xl-4 col-md-6 col-12 mt-3" v-for="site in filterSites()" :key="site.link">
           <PortfolioCard :site="site" />
         </div>
       </div>
@@ -62,13 +58,7 @@ export default {
           id: 4,
           title: "Houzing",
           image: "/assets/img/housing.PNG",
-          stacks: [
-            "React",
-            "Context API",
-            "Styled-Components",
-            "AntD",
-            "Backend",
-          ],
+          stacks: ["React", "Context API", "Styled-Components", "AntD", "Backend"],
           link: "https://housing-neon.vercel.app/home",
           tab: "react",
         },
@@ -80,28 +70,21 @@ export default {
           link: "https://article-vue.vercel.app/",
           tab: "vue",
         },
-        {
-          id: 21,
-          title: "To-Do List",
-          image: "/assets/img/todo.PNG",
-          stacks: ["Vue", "Tailwind CSS", "Pinia", "CRUD"],
-          link: "https://todolist-vue-aktamov.netlify.app/",
-          tab: "vue",
-        },
-        {
-          id: 19,
-          title: "TreeView",
-          image: "/assets/img/treeview.png",
-          stacks: ["Vue", "Tailwind CSS", "Pinia", "CRUD"],
-          link: "https://vue-treeview-henna.vercel.app/",
-          tab: "vue",
-        },
+
         {
           id: 20,
           title: "Movie List",
           image: "/assets/img/movie.PNG",
           stacks: ["Vue", "Vuex", "CRUD"],
           link: "https://movie-list-psi-six.vercel.app/",
+          tab: "vue",
+        },
+        {
+          id: 30,
+          title: "Ongila",
+          image: "/assets/img/ongila.png",
+          stacks: ["Vue", "Pinia", "PrimeVue", "Backend"],
+          link: "https://m.boshqaruv-test.ongila.uz/",
           tab: "vue",
         },
         {
@@ -120,6 +103,7 @@ export default {
           link: "https://x-o-game-theta.vercel.app/",
           tab: "react",
         },
+
         {
           id: 12,
           title: "Max Way",
@@ -158,6 +142,14 @@ export default {
           image: "/assets/img/portfolio.PNG",
           stacks: ["Vue", "Bootstrap"],
           link: "https://aktamovs-dev.vercel.app/",
+          tab: "vue",
+        },
+        {
+          id: 21,
+          title: "To-Do List",
+          image: "/assets/img/todo.PNG",
+          stacks: ["Vue", "Tailwind CSS", "Pinia", "CRUD"],
+          link: "https://todolist-vue-aktamov.netlify.app/",
           tab: "vue",
         },
         {
@@ -217,5 +209,4 @@ export default {
   },
 };
 </script>
-<style>
-</style>
+<style></style>
